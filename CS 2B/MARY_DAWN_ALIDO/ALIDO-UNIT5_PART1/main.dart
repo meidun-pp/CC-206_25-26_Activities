@@ -20,7 +20,7 @@ void main(){
 
   //concept: list
   var PET_HOME = <Pet>[
-    Pet('Hamster', 'Mammalia', '2020-01-01', 4),
+    Pet.withNickname('Hamster', 'Mammalia', '2020-01-01', 4, 'Nibbles'),
     Pet.withNickname('Dog', 'Mammalia', '2019-05-10', 4, 'Buddy'),
     Pet.withNickname('Cat', 'Mammalia', '2018-08-20', 4, 'Fluffy'),
   ];
