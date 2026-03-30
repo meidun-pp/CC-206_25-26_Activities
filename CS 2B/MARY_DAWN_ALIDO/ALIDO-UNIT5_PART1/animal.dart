@@ -5,7 +5,7 @@ class Animal {
   String _dob; //date of birth
   int _numlegs;
 
-  //concept: getters
+  //concept: getters (fat/big arrow)
   String get name => _name;
   String get kingdom => _kingdom;
   String get dob => _dob;
@@ -19,11 +19,11 @@ class Animal {
     if (_numlegs == 0){
       print('$_name cannot walk.');
     } else {
-      print('$_name walks in $direction.');
+      print('$_name walks toward $direction.');
     }
   }
 
-  //display info method
+  //display info method (multiline strings)
   String displayInfo() {
     return '''
     --- Animal Information ---
